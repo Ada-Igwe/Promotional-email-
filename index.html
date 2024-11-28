@@ -13,7 +13,7 @@
     /* media queries */
     @media only screen and (min-width: 960px) {
       .container {
-        max-width: 600px;
+        max-width: 100%;
       }
     }
 
@@ -26,6 +26,9 @@
     @media only screen and (max-width: 600px) {
       .container {
         width: 100%;
+        max-width: 100%;
+    margin: 0 auto;
+    padding: 16px;
       }
 
       .section-wrap {
@@ -34,13 +37,13 @@
       }
 
       .heading-1 {
-        font-size: 48px !important;
-        line-height: 48px !important;
+        font-size: 36px !important;
+        line-height: 42px !important;
       }
 
       .heading-2 {
-        font-size: 30px !important;
-        line-height: 30px !important;
+        font-size: 20px !important;
+        line-height: 26px !important;
       }
 
       .stack-column {
@@ -123,12 +126,13 @@
           <!-- ========>> start: email container <<========= -->
           <table
             align="center"
-            width="600px"
+            width="100%"
             border="0"
             cellspacing="0"
             cellpadding="0"
             role="presentation"
             class="container"
+            style="max-width: 600px; width: 100%;"
           >
             <!-- ========>> start: row 1 banner <<========= -->
             <tr>
